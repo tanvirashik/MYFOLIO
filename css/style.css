@@ -1,0 +1,262 @@
+/* fonts start */
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+/* common css */
+body{
+    margin:0;
+    padding:0;
+    font-family: OpenSans-Regular;
+    font-weight:400;
+    font-size:16px;
+    color:#7e8287;
+}
+/* header start */
+header{
+    padding:15px 0;
+    background-color: #02918c;
+}
+.menu{}
+.menu_brand{}
+.menu_brand img{
+    width:100%;
+}
+.menu ul li{
+    margin-right:30px;
+}
+.menu ul li:last-child{
+    margin-right:0;
+}
+.menu ul li a{
+    font-family: OpenSans-ExtraBold;
+    font-size:16px;
+    color:#fff !important;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color:#000 !important;
+}
+/* banner start */
+.banner{
+    margin-top:85px;
+    background-image: url(../img/MYFOLIO.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    padding:200px 0;
+}
+.bannerText h4{
+    font-family: OpenSans-ExtraBold;
+    font-size:28px;
+    color:#fff;
+}
+.bannerText h1{
+    font-family: OpenSans-ExtraBold;
+    font-size:100px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.bannerText p{
+    font-family: OpenSans-ExtraBold;
+    font-size:16px;
+    color:#fff;
+}
+.bannerimg{
+    margin-top:30px;
+}
+.bannerimg img{
+    margin:0 auto;
+}
+.bannertbtn{
+    font-family: OpenSans-ExtraBold;
+    word-spacing: 2px;
+    margin-top:50px;
+    padding:15px 40px;
+    background-color: #cfc91d;
+    border-radius: 0;
+    color:#000;
+    transition: 0.4s;
+
+}
+.bannertbtn:hover{
+    color:#fff;
+}
+/* banner end */
+/* about start */
+.about{
+    margin:90px 0;
+}
+.abouttext{
+    margin-bottom:70px;
+    padding:0 118px;
+}
+.cm_title{
+    font-family: OpenSans-ExtraBold;
+    font-size:46px;
+    margin-bottom:0;
+    color:#02918c;
+    text-transform: uppercase;
+}
+.cm{
+    margin-top:20px;
+    margin-bottom:0;
+}
+.cm_text{
+    margin-top:30px;
+    line-height:30px;
+}
+.ash{
+    font-family: OpenSans-ExtraBold;
+    font-size:20px;
+    color:#7e8287;
+}
+/* 2nd row */
+.abouttitle{
+    border-right:1px solid #7e8287;
+}
+.abouticon i{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#02918c;
+}
+.cmtitle{
+    font-family: OpenSans-ExtraBold;
+    font-size:18px;
+    margin-bottom:20px;
+    color:#7e8287;
+}   
+.abouttitle p{
+    font-size:15px;
+    color:#7e8287;
+}
+/* about end */
+/* service start */
+.service{
+    padding-top:60px;
+    padding-bottom:20px;
+    background-image: url(../img/m.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicetext{
+    margin-bottom:60px;
+}
+.serviceicon{
+    margin-bottom:40px;
+}
+.sicon i{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#02918c;
+}
+.servicetext p{}
+/* service end */
+/* work start */
+.work{
+    margin-top:100px;
+}
+.worktext{
+    padding:0 210px;
+    padding-bottom:70px;
+}
+/* work end */
+/* contact start */
+.contact{
+    margin-top:90px;
+}
+.contacttext{
+    padding:0 210px;
+    padding-bottom:60px;
+}
+.contactform{
+    padding-bottom:70px;
+    background-color: #0b0b0b;
+}
+.mb{
+    margin-top:40px;
+}
+.fName{
+    width:600px;
+    margin:0 auto;
+    border:none;
+    border-radius: 0;
+    text-align:center;
+    font-size:14px;
+    background-color: transparent;
+    border-bottom:1px solid #7e8287;
+}
+.fName:focus {
+    color: #FFF;
+    background-color: transparent;
+    border-color:#fff;
+    outline: 0px;
+    box-shadow: none;
+}
+.email{
+    width:600px;
+    margin:0 auto;
+    border:none;
+    border-radius: 0;
+    text-align:center;
+    font-size:14px;
+    background-color: transparent;
+    border-bottom:1px solid #7e8287;
+}
+.email:focus {
+    color: #FFF;
+    background-color: transparent;
+    border-color:#fff;
+    outline: 0px;
+    box-shadow: none;
+}
+.message{
+    width:900px;
+    margin:0 auto;
+    border:none;
+    border-radius: 0;
+    font-size:14px;
+    text-align:center;
+    background-color: transparent;
+    border-bottom:1px solid #7e8287;
+}
+.message:focus {
+    color: #FFF;
+    background-color: transparent;
+    border-color:#fff;
+    outline: 0px;
+    box-shadow: none;
+}
+.cbtn{
+    font-family: OpenSans-ExtraBold;
+    word-spacing: 2px;
+    margin-top: 50px;
+    margin-left:45%;
+    padding: 10px 40px;
+    background-color: #cfc91d;
+    border-radius: 0;
+    color: #000;
+    transition: 0.4s;
+}
+.cbtn:hover{
+    color:#fff;
+}
+/* contact end */
+/* footer start */
+footer{
+    padding:15px 0;
+    background-color: black;
+}
+footer p{
+    text-align:center;
+    font-size:14px;
+}
+/* footer end */
